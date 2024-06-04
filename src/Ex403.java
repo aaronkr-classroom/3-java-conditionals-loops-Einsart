@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Ex403 {
 
 	public static void main(String[] args) {
@@ -8,16 +9,15 @@ public class Ex403 {
 		int grade = z.nextInt();
 		
 		if (grade >= 90) {
-			System.out.println("A. 천재");
-		}else if (grade >= 80) {
-			System.out.println("B. 괜찮");
-		}else if (grade >= 70) {
-			System.out.println("C. 졸업");
-		}else if (grade >= 60) {
-			System.out.println("D. ");
-		}else {
-			System.out.println("F.");
+			System.out.println("A!! 당신은 천재!~~~");
+		} else if (grade >= 80) {
+			System.out.println("B - 괜찮다~ 괜찮다~");
+		} else if (grade >= 70) {
+			System.out.println("C - 어차피 졸업할 수 있다~");
+		} else if (grade >= 60) {
+			System.out.println("D - 게임을 많이 했지?");
+		} else {
+			System.out.println("F");
 		}
-
-}
+	}
 }
